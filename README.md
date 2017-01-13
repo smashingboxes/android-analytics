@@ -8,7 +8,7 @@ This project aims to reduce the time for GA setup, by allowing developers to aut
 ###Benefits
   - Can be added into new projects or existing projects
   - Super small library. ~50KB
-  - Automatically handles all standard components (Buttons, Selection Controls, Dropdowns, Toggles, etc.) to send basic Google Analytics events with GA categories, actions, labels based on our GA Framework Event Standardization document https://docs.google.com/spreadsheets/d/1JoUbxMsEA5ZFS1AIEXDzJVbU-7BpQpWZOBALBXnydzw
+  - Automatically handles all standard components (Buttons, Selection Controls, Dropdowns, Toggles, etc.) to send basic Google Analytics events with GA categories, actions, and labels. 
   - For components that the library doesn’t handle automatically, there are helper functions for sending these events within the [TrackerManager](https://github.com/smashingboxes/android-analytics/blob/master/ga_wrapper/src/main/java/com/smashingboxes/ga_wrapper/TrackerManager.java) class
   - If an event isn’t handled automatically and there’s no available helper function for the event, developers still only need to write one line of code to send an event:
 
