@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_content_padding"
+    tools:context=".MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableBottom="@android:drawable/ic_menu_share"-->
+            <!--android:drawablePadding="@dimen/bottom_sheet_text_drawable_padding"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="@string/component_bottom_sheet_share"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableBottom="@android:drawable/ic_menu_upload"-->
+            <!--android:drawablePadding="@dimen/bottom_sheet_text_drawable_padding"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="@string/component_bottom_sheet_upload"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableBottom="@android:drawable/ic_menu_call"-->
+            <!--android:drawablePadding="@dimen/bottom_sheet_text_drawable_padding"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="@string/component_bottom_sheet_call"/>-->
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

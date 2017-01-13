@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/demo_card_view"
+    android:layout_marginTop="@dimen/card_margin_topbottom"
+    android:layout_marginBottom="@dimen/card_margin_topbottom"
+    android:layout_marginStart="@dimen/card_margin_leftright"
+    android:layout_marginEnd="@dimen/card_margin_leftright">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:padding="@dimen/default_content_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/component_text_field"/>
+
+        <RelativeLayout
+            android:id="@+id/button_first_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/card_button_margintop"
+            android:orientation="horizontal">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/card_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:hint="@string/component_text_field_edittext"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/ErrorText">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="150dp"
+                    android:text="@string/component_text_field_textview"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:layout_alignBaseline="@+id/card_edit_text_layout"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/card_edit_text_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/card_text_view"
+                android:layout_toEndOf="@+id/card_text_view"
+                android:orientation="horizontal"
+                android:hint="@string/component_text_field_edittext"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@style/ErrorText">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:minWidth="150dp"
+                    android:text="@string/component_text_field_edittext"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

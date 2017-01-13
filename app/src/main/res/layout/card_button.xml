@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ga_wrapper="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/demo_card_view"
+    android:layout_marginTop="@dimen/card_margin_topbottom"
+    android:layout_marginBottom="@dimen/card_margin_topbottom"
+    android:layout_marginStart="@dimen/card_margin_leftright"
+    android:layout_marginEnd="@dimen/card_margin_leftright">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:padding="@dimen/default_content_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/component_button"/>
+
+        <LinearLayout
+            android:id="@+id/button_first_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/card_button_margintop"
+            android:orientation="horizontal">
+            <com.smashingboxes.ga_wrapper.GaButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/component_raised_button"
+                ga_wrapper:category="Button"
+                ga_wrapper:action="Button Click"
+                ga_wrapper:label="Raised Button"
+                ga_wrapper:custom_dimension1="User 1234"
+                ga_wrapper:custom_dimension2="Admin"/>
+
+            <com.smashingboxes.ga_wrapper.GaButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/component_flat_button"
+                ga_wrapper:category="Button"
+                ga_wrapper:action="Button Click"
+                ga_wrapper:label="Flat Button"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <com.smashingboxes.ga_wrapper.GaToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/component_toggle_button"
+                android:textOn="@string/component_toggle_button"
+                android:textOff="@string/component_toggle_button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/button_second_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/button_first_layout"
+            android:orientation="horizontal">
+
+            <com.smashingboxes.ga_wrapper.GaSpinner
+                android:id="@+id/component_dropdown"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/card_button_spinner_marginend"
+                android:layout_marginEnd="@dimen/card_button_spinner_marginend"
+                android:spinnerMode="dropdown"
+                android:entries="@array/spinner"
+                style="@style/Widget.AppCompat.Spinner.Underlined" />
+
+            <com.smashingboxes.ga_wrapper.GaSwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/card_button_switch_marginend"
+                android:layout_marginEnd="@dimen/card_button_switch_marginend"/>
+
+            <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/component_image_button"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:clickable="true"-->
+                <!--android:layout_marginRight="@dimen/card_button_imagebutton_marginend"-->
+                <!--android:layout_marginEnd="@dimen/card_button_imagebutton_marginend"/>-->
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ga_wrapper">
+        <attr name="category" format="string" />
+        <attr name="action" format="string" />
+        <attr name="label" format="string" />
+        <attr name="custom_dimension1" format="string" />
+        <attr name="custom_dimension2" format="string" />
+    </declare-styleable>
+</resources>

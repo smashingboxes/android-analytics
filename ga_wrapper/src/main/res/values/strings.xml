@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Categories -->
+    <string name="ga_wrapper_category_button">Button</string>
+    <string name="ga_wrapper_category_toggle_button">Button</string>
+    <string name="ga_wrapper_category_switch">Switch</string>
+    <string name="ga_wrapper_category_spinner">Dropdown</string>
+    <string name="ga_wrapper_category_fab">Floating Icon</string>
+    <string name="ga_wrapper_category_checkbox">Checkbox</string>
+    <string name="ga_wrapper_category_radio_button">Radio Button</string>
+    <string name="ga_wrapper_category_overflow_menu_button">Overflow Menu Button</string>
+    <string name="ga_wrapper_category_overflow_menu_item">Overflow Menu Item</string>
+    <string name="ga_wrapper_category_date_picker">Date Picker</string>
+    <string name="ga_wrapper_category_nav_drawer_button">Navigation Drawer</string>
+    <string name="ga_wrapper_category_nav_drawer_item">Navigation Drawer Item</string>
+
+    <!-- Actions -->
+    <string name="ga_wrapper_action_button_click">Button Click</string>
+    <string name="ga_wrapper_action_toggle_button_click">Button Click</string>
+    <string name="ga_wrapper_action_switch_toggle_select">Toggle Select</string>
+    <string name="ga_wrapper_action_spinner_click">Dropdown Click</string>
+    <string name="ga_wrapper_action_spinner_select">Dropdown Select</string>
+    <string name="ga_wrapper_action_fab_click">Icon Click</string>
+    <string name="ga_wrapper_action_checkbox_select">Checkbox Select</string>
+    <string name="ga_wrapper_action_checkbox_unselect">Checkbox Unselect</string>
+    <string name="ga_wrapper_action_radio_button_select">Radio Button Select</string>
+    <string name="ga_wrapper_action_overflow_menu_item_select">Menu Select</string>
+    <string name="ga_wrapper_action_date_picker_click">Date Picker Click</string>
+    <string name="ga_wrapper_action_nav_drawer_open">Drawer Open</string>
+    <string name="ga_wrapper_action_nav_drawer_item_select">Drawer Item Select</string>
+
+    <!-- Labels -->
+    <string name="ga_wrapper_label_overflow_menu">Overflow Menu</string>
+    <string name="ga_wrapper_label_nav_drawer">Left Sidebar Menu</string>
+
+    <!-- Fallback Labels -->
+    <string name="ga_wrapper_label_button_fallback">No Button Label Set</string>
+    <string name="ga_wrapper_label_toggle_button_fallback">No Toggle Button Label Set</string>
+    <string name="ga_wrapper_label_switch_fallback">No Switch Label Set</string>
+    <string name="ga_wrapper_label_spinner_fallback">No Dropdown Label</string>
+    <string name="ga_wrapper_label_spinner_item_fallback">No Dropdown Item Label</string>
+    <string name="ga_wrapper_label_fab_fallback">No Dropdown Item Label</string>
+    <string name="ga_wrapper_label_checkbox_fallback">No Checkbox Label</string>
+    <string name="ga_wrapper_label_radio_button_fallback">No Radio Button Label</string>
+    <string name="ga_wrapper_label_date_picker_fallback">No Date Picker Label</string>
+</resources>

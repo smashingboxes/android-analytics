@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">GA Wrapper Demo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Smash A. Box</string>
+    <string name="user_email">smash@smashingboxes.com</string>
+
+    <string name="open_prompt">Click to Open</string>
+
+    <string name="spinner_initial">Spinner</string>
+    <string name="spinner_item_one">Item 1</string>
+    <string name="spinner_item_two">Item 2</string>
+    <string name="spinner_item_three">Item 3</string>
+    <string name="spinner_item_four">Item 4</string>
+
+    <string name="dialog_item_one">Item 1</string>
+    <string name="dialog_item_two">Item 2</string>
+    <string name="dialog_item_three">Item 3</string>
+    <string name="dialog_item_four">Item 4</string>
+
+    <string name="component_bottom_sheet_title">Bottom Sheet Title</string>
+    <string name="component_bottom_sheet_help">Help</string>
+    <string name="component_bottom_sheet_share">Share</string>
+    <string name="component_bottom_sheet_upload">Upload</string>
+    <string name="component_bottom_sheet_call">Call</string>
+
+    <string name="component_dialog_negative">Cancel</string>
+    <string name="component_dialog_positive">OK</string>
+    <string name="component_dialog_title">Dialog Title</string>
+    <string name="component_dialog_message">Dialog Message</string>
+
+    <string name="component_snackbar_action">DISMISS</string>
+    <string name="component_snackbar_message">Snackbar message</string>
+
+    <string name="component_text_field_textview">TextView</string>
+    <string name="component_text_field_edittext">EditText</string>
+
+    <string name="component_text_field_unhandled">Swipeable Cards, \nImage Buttons, \nChips, \nPopupMenus,
+        \nAlternative types of Text Fields, \nToolbar clicks, \nSwipe Refresh, \nTabs (View Pager, Fixed + Scrollable),
+        \nData table manipulation, \nList view manipulation (drag+drop, swipe, click), \nSteppers,
+        \nand other patterns such as: \nNotification clicks, \nSearch Bar clicks, \nGestures, \netc.</string>
+
+    <!-- Components Array -->
+    <string name="component_unhandled">Unhandled Components</string>
+    <string name="component_bottom_sheet">Bottom Sheet</string>
+    <string name="component_button">Button</string>
+    <string name="component_raised_button">Raised</string>
+    <string name="component_flat_button">Flat</string>
+    <string name="component_toggle_button">Toggle</string>
+    <string name="component_spinner">Spinner</string>
+    <string name="component_fab">Floating Action Button</string>
+    <string name="component_dialog">Dialog</string>
+    <string name="component_floating_context_menu">Floating Context Menu</string>
+    <string name="component_contextual_action">Contextual Action</string>
+    <string name="component_date_picker">Date Picker</string>
+    <string name="component_time_picker">Time Picker</string>
+    <string name="component_selection_controls">Selection Controls</string>
+    <string name="component_seekbar">Slider</string>
+    <string name="component_snackbar">Snackbar</string>
+    <string name="component_text_field">Text Field</string>
+
+</resources>

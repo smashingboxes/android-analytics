@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spinner">
+        <item>@string/spinner_initial</item>
+        <item>@string/spinner_item_one</item>
+        <item>@string/spinner_item_two</item>
+        <item>@string/spinner_item_three</item>
+        <item>@string/spinner_item_four</item>
+    </array>
+    <array name="dialog">
+        <item>@string/dialog_item_one</item>
+        <item>@string/dialog_item_two</item>
+        <item>@string/dialog_item_three</item>
+        <item>@string/dialog_item_four</item>
+    </array>
+</resources>
