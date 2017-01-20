@@ -31,17 +31,18 @@ public abstract class GaActivity extends Activity implements IGaActivity {
         }
     }
 
-    @Override
-    public boolean onMenuOpened(int featureId, Menu menu) {
-        getGaTracker().sendContextMenuClick("");
-        return super.onMenuOpened(featureId, menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        getGaTracker().sendContextMenuItemClick(item.getTitle().toString(), "");
-        return super.onOptionsItemSelected(item);
-    }
+    //TODO need to define a configuration to better handle auto submission of these events
+//    @Override
+//    public boolean onMenuOpened(int featureId, Menu menu) {
+//      getGaTracker().sendContextMenuClick("");
+//        return super.onMenuOpened(featureId, menu);
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        getGaTracker().sendContextMenuItemClick(item.getTitle().toString(), "");
+//        return super.onOptionsItemSelected(item);
+//    }
 
     /**
      * Get the screen name of the activity
